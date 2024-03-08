@@ -1,0 +1,28 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli": "^5.0.8",
+    "@vue/cli-service": "^5.0.8"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cacheable-request": "^11.0.0",
+    "download": "^8.0.0",
+    "download-git-repo": "^3.0.2",
+    "git-clone": "^0.2.0",
+    "got": "^14.2.0",
+    "http-cache-semantics": "^4.1.1",
+    "showdown": "^2.1.0",
+    "vue-router": "^4.2.5"
+  },
+  "description": ""
+}
