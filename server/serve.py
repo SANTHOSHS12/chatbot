@@ -48,7 +48,7 @@ def generate_content():
         
         # Make the request
         response = requests.post(
-            f"{endpoint}/models/gemini-pro:generateContent?key={'api_key'}",
+            f"{endpoint}/models/gemini-pro:generateContent?key={api_key}",
             json=request_body,
         )
 
